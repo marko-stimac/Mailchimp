@@ -1,6 +1,10 @@
-[![Build Status](https://travis-ci.com/marko-stimac/Mailchimp.svg?branch=master)](https://travis-ci.com/marko-stimac/Mailchimp)
 
-### Mailchimp
+# WP-Mailchimp
 
-- in Settings->Mailchimp set API key and List ID
-- use shortcode as [mailchimp]
+Simple and lightweight WordPress plugin for Mailchimp subscription. 
+
+# How to use
+
+- in Settings->Mailchimp set API key and Audience ID
+- use shortcode as `[mailchimp]` where you want the form to appear
+- style if necessary

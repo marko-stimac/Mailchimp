@@ -1,0 +1,52 @@
+.mailchimp .form-control {
+	height: 45px;
+	box-shadow: none;
+}
+
+.mailchimp .input-group {
+	display: flex;
+}
+
+.mailchimp .btn {
+	height: 45px;
+	min-width: 115px;
+	line-height: 1;
+	padding: .5em;
+}
+
+.mailchimp__message {
+	margin-top: 10px;
+	display: none;
+}
+
+.mailchimp__message--show {
+	display: block !important;
+}
+
+.mailchimp__message--success {
+	color: #3c763d;
+}
+
+.mailchimp__message--fail {
+	color: #f01;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}

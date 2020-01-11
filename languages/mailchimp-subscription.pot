@@ -1,0 +1,49 @@
+# Copyright (C) 2020 Marko Štimac
+# This file is distributed under the same license as the Mailchimp subscription plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailchimp subscription 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mailchimp-subscription\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-10 20:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Domain: mailchimp-subscription\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#. Plugin Name of the plugin
+msgid "Mailchimp subscription"
+msgstr ""
+
+#. Description of the plugin
+msgid "Mailchimp subscribe form"
+msgstr ""
+
+#. Author of the plugin
+msgid "Marko Štimac"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://marko-stimac.github.io/"
+msgstr ""
+
+#: includes/class-frontend.php:108 includes/class-frontend.php:109
+msgid "Email address"
+msgstr ""
+
+#: includes/class-frontend.php:112
+msgid "Subscribe"
+msgstr ""
+
+#: includes/class-frontend.php:117
+msgid "You have successfully subscribed to the newsletter. Please check your email for confirmation."
+msgstr ""
+
+#: includes/class-frontend.php:120
+msgid "An error occurred, please try again later."
+msgstr ""
