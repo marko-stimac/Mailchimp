@@ -12,7 +12,7 @@
 namespace ms\Mailchimp;
 
 defined('ABSPATH') || exit;
-define('PLUGIN_VERSION', '1.2.0');
+define(__NAMESPACE__ . '\PLUGIN_VERSION', '1.2.0');
 
 require_once 'includes/class-backend.php';
 require_once 'includes/class-frontend.php';
