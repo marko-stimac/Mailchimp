@@ -35,14 +35,14 @@ jQuery(function($) {
 					nonce: mailchimp.nonce
 				},
 				type: 'POST',
-				url: mailchimp-subscription.url,
+				url: url: mailchimp.url,
 				success: function(response_code) {
 					console.log();
 					// Reset button
 					resetBiForm();
 
 					// Show message for success
-					if(response_code === 200) {
+					if(response_code == 200) {
 						$messageSuccess.addClass('mailchimp__message--show');
 					}
 					// Show message for failure

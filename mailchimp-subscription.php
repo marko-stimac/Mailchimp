@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Mailchimp subscription
  * Description: Mailchimp subscription form
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Marko Štimac
  * Author URI: https://marko-stimac.github.io/
  * Text Domain: mailchimp-subscription
@@ -12,7 +12,7 @@
 namespace ms\Mailchimp;
 
 defined('ABSPATH') || exit;
-define(__NAMESPACE__ . '\PLUGIN_VERSION', '1.2.0');
+define(__NAMESPACE__ . '\PLUGIN_VERSION', '1.2.1');
 
 require_once 'includes/class-backend.php';
 require_once 'includes/class-frontend.php';
